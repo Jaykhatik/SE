@@ -1,0 +1,25 @@
+/*
+🔹 What is a Constructor in C++?
+A constructor is a special member function of a class that is automatically called when an object of that class is created.
+
+It is mainly used to:
+    ->Initialize the data members of a class.
+    ->Allocate resources if needed when an object is created
+
+🔹 Syntax of Constructor:
+    class ClassName {
+public:
+    ClassName() {
+        // Constructor body
+    }
+};
+The constructor name must be the same as the class name and it has no return type (not even void).
+
+
+🔹 Types of Constructors in C++
+
+There are three main types of constructors:
+    i)Default Constructor
+    ii)Parameterized Constructor
+    iii)Copy Constructor
+*/
